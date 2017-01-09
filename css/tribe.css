@@ -1,0 +1,90 @@
+/* 
+    Document   : tribe
+    Created on : Jan 9, 2017, 11:14:40 AM
+    Author     : FRANKCHUKY
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.clients img{
+    max-height: 40px;
+    
+}
+
+#left-column{
+    background-image: url("/tribe/img/header-bg.jpg");
+    width: 25%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    color: #eea236;
+    
+}
+
+#bought-to-you{
+     padding-top: 10%;
+     padding-bottom: 6%;
+}
+
+#text-property{
+    font-size: 17px;
+}
+
+
+#social-buttons{
+    font-size: 18px;
+    text-align: center;
+    padding-top: 70%;
+    
+}
+
+
+
+#social-buttons a:hover{
+    color: palegreen;
+}
+
+#intro-text{
+    text-align: center;
+    color: #eea236;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+#left-column-info{
+    padding-top: 30%;
+    font-weight: bold;
+    font-size: 28px;
+    color: white;
+}
+
+#about-code-fiesta{
+    color: white;
+    background-color: #eea236;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+}
+#why-code-fiesta dd{
+   padding-bottom: 15px;
+}
+
+#tech-image{
+    padding-top: 6%;
+}
+
+#goal-image{
+    padding-top: 4%;
+}
+
+#education-image{
+    padding-top: 4%;
+}
+
+h3{
+    font-weight: bold;
+    padding-bottom: 10px;
+}

@@ -5,6 +5,32 @@ and open the template in the editor.
 <!DOCTYPE html>
 <html>
     <head>
+        	<meta name="description" content="Code Fiesta is a one week hackathon that brings tech enthusiasts together to work on a project.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="cache-control" content="max-age=0" />
+	<meta http-equiv="cache-control" content="no-cache" />
+	<meta http-equiv="expires" content="0" />
+	<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta http-equiv="cache-control" content="max-age=0" />
+	<meta http-equiv="cache-control" content="no-cache" />
+	<meta http-equiv="expires" content="0" />
+	<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<!-- OpenGraph for Facebook. -->
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="CodeFiesta" />
+	<meta property="og:url" content="www.tribenigeria.com/codefiesta.html" />
+	<meta property="og:description" content="Code Fiesta is a one week hackathon that brings tech enthusiasts together to work on a project. " />
+	<meta property="og:image" content="http://www.tribenigeria.com/img/tribe.jpg" />
+	<meta property="og:locale" content="en_US" />
+	<!-- Twitter Cards -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@tribenigeria">
+	<meta name="twitter:title" content="CodeFiesta">
+	<meta name="twitter:description" content="Code Fiesta is a one week hackathon that brings tech enthusiasts together to work on a project . ">
+	<meta name="twitter:image:src" content="http://www.tribenigeria.com/img/tribe.jpg">
+        
         <title>
             Code Fiesta
         </title>
@@ -15,7 +41,9 @@ and open the template in the editor.
         <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-        <link rel="stylesheet" href="/tribe/css/tribe.css">
+        <link href="css/agency.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/tribe.css">
+        
         <!-- jQuery library -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 
@@ -25,24 +53,35 @@ and open the template in the editor.
     <body>
 
 
-        <div class="col-lg-3" id="left-column">
+        <div class="col-lg-3" id="left-column" style="background-image: url('img/header-bg.jpg');">
             <div class="text-center" id="left-column-info">
-                <h2 style="padding-bottom: 30px;">Tech unravelled</h2>
+                <h2 style="padding-bottom: 30px;">TRIBE</h2>
                 <div class="row">
                     <div class="col-lg-2"></div>
                     <div class="col-lg-8">
-                        <img src="/tribe/img/logos/tribe.png" class="img-responsive" alt="tribe logo" width="200" height="200">
+                        <img src="img/logos/tribe.png" class="img-responsive" alt="tribe logo" width="200" height="200">
                     </div>
                     <div class="col-lg-2"></div>
                 </div>
             </div>
             <ul class="list-inline" id="social-buttons">
-                <li><a href="#"><i class="fa fa-twitter" style="color: #ffcc33"></i></a>
+                <li><a href="#">
+                        <span class="fa-stack fa-lg" style="color: #eea236;">
+                            <i class="fa fa-circle-thin fa-stack-2x"></i>
+                            <i class="fa fa-twitter fa-stack-1x"></i>
+                        </span>
+                    </a>
                 </li>&nbsp; &nbsp;
-                <li><a href="#"><i class="fa fa-facebook" style="color: #ffcc33"></i></a>
+                <li><a href="#"> <span class="fa-stack fa-lg" style="color: #eea236;">
+                            <i class="fa fa-circle-thin fa-stack-2x"></i>
+                            <i class="fa fa-facebook fa-stack-1x"></i>
+                        </span></i></a>
                 </li>
                 &nbsp; &nbsp;
-                <li><a href="#"><i class="fa fa-linkedin" style="color: #ffcc33"></i></a>
+                <li><a href="#">                        <span class="fa-stack fa-lg" style="color: #eea236;">
+                            <i class="fa fa-circle-thin fa-stack-2x"></i>
+                            <i class="fa fa-linkedin fa-stack-1x"></i>
+                        </span></i></a>
                 </li>
             </ul>
 
@@ -51,8 +90,18 @@ and open the template in the editor.
 
 
         <div class="col-lg-9" style="margin-left: 25%" id="text-property">
-            <div class="row" style="background-color: #888;">           
+            <div class="row" style="padding-bottom: 30px;">           
                 <h1 id="intro-text">ACCELERATING TECHNOLOGY IN THE EAST</h1>
+                <div class="col-lg-8">
+                    <span id="code-fiesta-goals">
+                        <p>Learn about latest technologies</p>
+                        <p>Innovate and Build better Systems to aid the community</p>
+                                            
+                    </span>
+                </div>
+                <div class="col-lg-4">
+                    <img src="img/codefiesta/pen-paper.jpg" class="img-responsive text-center" width="250" height="200">
+                </div>
 
             </div>
 
@@ -73,7 +122,7 @@ and open the template in the editor.
                 </div>
 
                 <div class="col-lg-4" id="tech-image">
-                    <img src="/tribe/img/codefiesta/techhd.jpg" class="img-responsive"  alt="tribe-logo" width="250" height="200" >
+                    <img src="img/codefiesta/techhd.jpg" class="img-responsive"  alt="tribe-logo" width="250" height="200" >
                 </div>
             </div>
 
@@ -87,12 +136,12 @@ and open the template in the editor.
                         <dt>Innovate</dt>
                         <dd>- You can share ideas on projects to build to aid the community</dd>
                         <dt>Educate</dt>
-                        <dd>- Education is the key thing. it equips you greater task ahead</dd>
+                        <dd>- Education is the key thing. it equips you for greater task ahead</dd>
                     </dl>
                 </div>
 
                 <div class="col-lg-4" id="education-image">
-                    <img src="/tribe/img/codefiesta/education.jpg" class="img-responsive" alt="education-image" width="250" height="200">
+                    <img src="img/codefiesta/education.jpg" class="img-responsive" alt="education-image" width="250" height="200">
 
                 </div>
             </div>
@@ -115,7 +164,7 @@ and open the template in the editor.
                 </div>
 
                 <div class="col-lg-4" id="goal-image">
-                    <img src="/tribe/img/codefiesta/goals.jpg" class="img-responsive" alt="tribe-logo" width="250" height="200">
+                    <img src="img/codefiesta/goals.jpg" class="img-responsive" alt="tribe-logo" width="250" height="200">
 
                 </div>
             </div>
@@ -125,13 +174,13 @@ and open the template in the editor.
                 <div class="col-lg-12">
                     <div class="text-center">
                         <p style="font-weight: bold; color: #eea236;">Brought To You By:</p>
-                        <img src="/tribe/img/logos/tribe.png" alt="tribe-logo" width="50" height="50"><span style="font-weight: bold; color: #eea236;">TRIBE</span>
-                        
+                        <img src="img/logos/tribe.png" alt="tribe-logo" width="50" height="50"><span style="font-weight: bold; color: #eea236;">TRIBE</span>
+
                         <p>Tribe is a tech acceleration center dedicated to spreading technology in the east and beyond
                             and drawing together, developers from all works of life
                         <p>
                         <p>For more details or questions on code fiesta feel free to contact us at:</p><p>hi@tribenigeria.com</p>
-                  
+
                     </div>
                 </div>
 

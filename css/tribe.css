@@ -15,8 +15,36 @@ root {
     
 }
 
+body{
+    font-size: 16px;
+}
+/**id of the learn innovate and build */
+#code-fiesta-goals p{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+/**id of the discover engage and collaborate*/
+#tech-unravel li{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+#tech-unravel p{
+    font-size: 20px;
+   
+}
+
+#left-column-tech-unravel{
+    background-color: #cdc5c5;
+        width: 25%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    color: #eea236;
+}
+
 #left-column{
-    background-image: url("/tribe/img/header-bg.jpg");
     width: 25%;
     position: fixed;
     top: 0;
@@ -30,8 +58,8 @@ root {
      padding-bottom: 6%;
 }
 
-#text-property{
-    font-size: 17px;
+#bought-to-you p{
+    font-size: 16px;
 }
 
 
@@ -47,22 +75,30 @@ root {
 #social-buttons a:hover{
     color: palegreen;
 }
-
+/**formats accelerating technology in the east*/
 #intro-text{
     text-align: center;
     color: #eea236;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     font-weight: bold;
 }
+
+/**left column text formating*/
 #left-column-info{
     padding-top: 30%;
     font-weight: bold;
-    font-size: 28px;
+    font-size: 32px;
     color: white;
 }
 
+#about-code-fiesta p{
+    font-size: 16px;
+}
+
+
 #about-code-fiesta{
-    color: white;
+    opacity: 0.8;
+    color: black;
     background-color: #eea236;
     padding-left: 0px;
     padding-right: 0px;

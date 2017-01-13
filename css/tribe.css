@@ -5,6 +5,65 @@
     Description:
         Purpose of the stylesheet follows.
 */
+/*Media query*/
+@media screen and (min-width: 100px){
+    #left-column-tech-unravel{
+        width: 100%;
+
+    }
+    
+    #left-column-info h2{
+        padding-bottom: 50px;
+    }
+    
+        #left-column-tech-unravel img{
+        width: 100px;
+        height: 100px;
+
+    }
+    
+
+    
+    #right-column-tech-unravel{
+        margin-left: 0%;
+        width: 100%;
+        position: relative;
+        padding-top: 300px;
+    }
+    
+    #socials{
+        padding-top: 15px;
+    }
+    
+}
+
+@media screen and (min-width: 360px){
+
+}
+
+@media screen and (min-width: 720px){
+    #left-column-tech-unravel{
+        width: 25%;
+        position: fixed;
+        top: 0px;
+        bottom: 0px;
+        max-height: 100%;
+    }
+    #right-column-tech-unravel{
+        margin-left: 25%;
+        width: 75%;
+        padding-top: 0px;
+    }
+    #socials{
+        padding-top: 90%;
+    }
+            #left-column-tech-unravel img{
+        width: 70%;
+        height: 70%;
+
+    }
+
+}
 
 root { 
     display: block;
@@ -12,7 +71,7 @@ root {
 
 .clients img{
     max-height: 40px;
-    
+
 }
 
 body{
@@ -24,55 +83,52 @@ body{
     padding-bottom: 10px;
 }
 
+p, ul, li, dl, dt{
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 /**id of the discover engage and collaborate*/
 #tech-unravel li{
-    font-size: 20px;
+    font-size: 14px;
     padding-bottom: 10px;
+    list-style: none;
 }
 
 #tech-unravel p{
     font-size: 20px;
-   
+
 }
 
 #left-column-tech-unravel{
     background-color: #cdc5c5;
-        width: 25%;
+    color: #eea236;
+}
+
+/*#left-column{
+    width: 55%;
     position: fixed;
     top: 0;
     bottom: 0;
     color: #eea236;
-}
+}*/
 
-#left-column{
-    width: 25%;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    color: #eea236;
-    
-}
 
-#bought-to-you{
-     padding-top: 10%;
-     padding-bottom: 6%;
-}
 
 #bought-to-you p{
     font-size: 16px;
 }
 
 
-#social-buttons{
-    font-size: 18px;
-    text-align: center;
-    padding-top: 70%;
+#socials{
+    font-size: 12px;
+    
     
 }
 
 
 
-#social-buttons a:hover{
+
+#social a:hover{
     color: palegreen;
 }
 /**formats accelerating technology in the east*/
@@ -85,7 +141,8 @@ body{
 
 /**left column text formating*/
 #left-column-info{
-    padding-top: 30%;
+    text-align: center;
+    
     font-weight: bold;
     font-size: 32px;
     color: white;
@@ -100,16 +157,22 @@ body{
     opacity: 0.8;
     color: black;
     background-color: #eea236;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-bottom: 10px;
+    /*    padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 10px;*/
+    min-height:400px;
+
 }
+#about-code-fiesta, #why-code-fiesta, #our-goals, #tech-unravel{
+    padding: 20px;
+}
+
 #why-code-fiesta dd{
-   padding-bottom: 15px;
+    padding-bottom: 15px;
 }
 
 #tech-image{
-    padding-top: 6%;
+    padding-top: 2%;
 }
 
 #goal-image{
